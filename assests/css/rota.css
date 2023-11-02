@@ -1,0 +1,105 @@
+body{
+    background-color: #01061e;
+    color:rgb(243, 244, 244);
+    font-family: 'Nunito', sans-serif;
+  
+
+}
+.container
+{margin: 0 auto}
+
+.hamburgermenu
+{
+    padding: 8px 12px;
+    text-decoration: none;
+    color:rgb(243, 244, 244);
+
+    
+}
+
+.btn{
+    padding: 10px 15px;
+    background: #53798d;
+    text-decoration: none;
+    color:rgb(243, 244, 244);
+    font-size: 12px;
+    border-radius: 16px;
+   
+}
+.btn:hover{
+    background-color: #0c9fea;
+}
+
+
+.header
+{   margin:16px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+span
+{
+    display: flex;
+    gap:7px;
+   
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #01061e;
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    padding-block: 120px;
+    text-align: center;
+    margin-bottom: 5px;
+    
+  }
+
+  .overlay a {
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 22px;
+   display: flex;
+   flex-direction: column;
+    transition: 0.3s;
+    color:rgb(243, 244, 244);
+  }
+    
+  .overlay a:hover, .overlay a:focus {
+    color: #aebed1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+.faq-inside a{
+    font-size: 16px;
+    text-align: center;
+    /* color: #aebed1; */
+}
+
+summary{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px; /* 150% */ 
+    cursor: pointer;
+}
+summary:hover, summary:focus
+{
+    color: #aebed1;
+} 
+
