@@ -12,3 +12,9 @@ function openNav() {
   
 
     }
+     const menu=document.querySelector('menu');
+    overlay.addEventListener('click' ,sabit);
+
+    function sabit(e){
+      e.preventDefault();
+    }
